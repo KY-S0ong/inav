@@ -56,6 +56,14 @@ With the board connected and in bootloader mode (reset it by sending the charact
 * Restart the Configurator (make sure it is completely closed, logout and login if unsure)
 * Now the DFU device should be seen by Configurator
 
+## Platoform Spesfic: Mac-OS
+
+The Configuator devices can have a problem accesing USB devices on Mac-OS. This is ussaly solved by a cable change.
+
+* The official Apple USB-C to USB-C will not work no matter orentation. 
+* Make sure the cable you are using support data transfer
+  * For best results, use a USB-C to USB-A cable (And a dongle if your computer does not have an USB-A port)
+    * Dongle side pluged into the computer
 
 ## Using `dfu-util`
 
